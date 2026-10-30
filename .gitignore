@@ -1,0 +1,23 @@
+# 忽略系统与编辑器产生的杂项文件
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+*.log
+*.tmp
+node_modules/
+
+# 打包产物（发布时重新生成，不纳入版本管理）
+*.zip
